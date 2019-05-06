@@ -34,6 +34,7 @@ import text_encoder
 import tokenizer
 
 import tensorflow as tf
+print(tf.__version__)
 
 tf.flags.DEFINE_string('output_filename', '/tmp/my.subword_text_encoder',
                        'where to store the SubwordTextEncoder')
